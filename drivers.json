@@ -3,59 +3,75 @@
 	"lastUpdated": "2026-02-06",
 
 	"java": {
-		"win11-64": {
-			"url": "asfsaf",
-			"label": "Java 8 — Windows 11 (64-bit)",
-			"file": "jre-8uXXX-windows-x64.exe"
+		"win-online": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252905_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Windows Çevrim İçi (32-bit)",
+			"file": "jre-8u-windows-i586.exe",
+			"size": "2.28 MB"
 		},
-		"win11-32": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251406_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 11 (32-bit)",
-			"file": "jre-8uXXX-windows-i586.exe"
+		"win-offline": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252906_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Windows Çevrim dışı (32-bit)",
+			"file": "jre-8u-windows-i586.exe",
+			"size": "36.03 MB"
 		},
-		"win10-64": {
-			"url": "asfasf",
-			"label": "Java 8 — Windows 10 (64-bit)",
-			"file": "jre-8uXXX-windows-x64.exe"
+		"win-offline-64": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252907_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Windows Çevrim dışı (64-bit)",
+			"file": "jre-8u-windows-x64.exe",
+			"size": "38.50 MB"
 		},
-		"win10-32": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251406_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 10 (32-bit)",
-			"file": "jre-8uXXX-windows-i586.exe"
+		"mac-x64": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252900_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — macOS x64 (10.7.3+)",
+			"file": "jre-8u-macosx-x64.dmg",
+			"size": "46.72 MB"
 		},
-		"win81-64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251408_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 8.1 (64-bit)",
-			"file": "jre-8uXXX-windows-x64.exe"
+		"mac-arm64": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252898_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — macOS ARM64 (12+)",
+			"file": "jre-8u-macosx-arm64.dmg",
+			"size": "45.88 MB"
 		},
-		"win81-32": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251406_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 8.1 (32-bit)",
-			"file": "jre-8uXXX-windows-i586.exe"
+		"linux-rpm": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252894_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Linux RPM",
+			"file": "jre-8u-linux-i586.rpm",
+			"size": "51.38 MB"
 		},
-		"win8-64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251408_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 8 (64-bit)",
-			"file": "jre-8uXXX-windows-x64.exe"
+		"linux-x86": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252895_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Linux x86",
+			"file": "jre-8u-linux-i586.tar.gz",
+			"size": "48.22 MB"
 		},
-		"win8-32": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251406_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 8 (32-bit)",
-			"file": "jre-8uXXX-windows-i586.exe"
+		"linux-x64": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252897_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Linux x64",
+			"file": "jre-8u-linux-x64.tar.gz",
+			"size": "45.24 MB"
 		},
-		"win7-64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251408_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 7 (64-bit)",
-			"file": "jre-8uXXX-windows-x64.exe"
+		"linux-x64-rpm": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252896_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Linux x64 RPM",
+			"file": "jre-8u-linux-x64.rpm",
+			"size": "48.51 MB"
 		},
-		"win7-32": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251406_d4f4e5c44d504fa880b3e6e71e898acf",
-			"label": "Java 8 — Windows 7 (32-bit)",
-			"file": "jre-8uXXX-windows-i586.exe"
+		"solaris-sparc": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252902_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Solaris SPARC (64-bit)",
+			"file": "jre-8u-solaris-sparc64.tar.gz",
+			"size": "53.34 MB"
+		},
+		"solaris-x64": {
+			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252903_0d06828d282343ea81775b28020a7cd3",
+			"label": "Java 8 — Solaris x64",
+			"file": "jre-8u-solaris-x64.tar.gz",
+			"size": "51.27 MB"
 		},
 		"fallback": {
-			"url": "https://www.java.com/en/download/manual.jsp",
-			"label": "Java — Manuel İndirme Sayfası",
+			"url": "https://www.java.com/tr/download/",
+			"label": "Java — Resmi İndirme Sayfası",
 			"file": "java.com"
 		}
 	},
