@@ -154,7 +154,7 @@
 
 	"eimza": {
 		"default": {
-			"url": "https://cbs.tkgm.gov.tr/eimza/32/index.html",
+			"url": "https://cbs.tkgm.gov.tr/eimza/32/setup.exe",
 			"label": "E-İmza Uygulaması",
 			"file": "cbs.tkgm.gov.tr"
 		}
@@ -247,15 +247,15 @@
 	},
 
 	"readers": [
-		{ "id": 5, "name": "Gemalto IDBRIDGE K30 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/gemalto.png" },
-		{ "id": 0, "name": "MİLKO", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/Milko.png" },
-		{ "id": 1, "name": "Omnikey USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/omnikey.png" },
-		{ "id": 1, "name": "Omnikey Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/OmnikeyDekstopO.png" },
-		{ "id": 2, "name": "Gemplus USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/GemplusO.png" },
-		{ "id": 3, "name": "ACS 38T USB Kırmızı", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/AcsO.png" },
-		{ "id": 3, "name": "ACS 38T USB Beyaz", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz.png" },
-		{ "id": 3, "name": "ACS 38T USB Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz_masaustu.png" },
-		{ "id": 4, "name": "ACS 39T USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_39t_a1_tumrenkler.png" },
-		{ "id": 6, "name": "ATR 19 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/atr19.png" }
+		{ "id": 5, "slug": "gemalto-idbridge-k30", "group": "Gemalto", "name": "Gemalto IDBRIDGE K30 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/gemalto.png" },
+		{ "id": 0, "slug": "milko", "group": "Milko", "name": "MİLKO", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/Milko.png" },
+		{ "id": 1, "slug": "omnikey-usb", "group": "Omnikey", "name": "Omnikey USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/omnikey.png" },
+		{ "id": 1, "slug": "omnikey-desktop", "group": "Omnikey", "name": "Omnikey Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/OmnikeyDekstopO.png" },
+		{ "id": 2, "slug": "gemplus-usb", "group": "Gemplus", "name": "Gemplus USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/GemplusO.png" },
+		{ "id": 3, "slug": "acs-38t-usb-red", "group": "ACS 38T", "name": "ACS 38T USB Kırmızı", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/AcsO.png" },
+		{ "id": 3, "slug": "acs-38t-usb-white", "group": "ACS 38T", "name": "ACS38T USB Beyaz", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz.png" },
+		{ "id": 3, "slug": "acs-38t-desktop", "group": "ACS 38T", "name": "ACS38T USB Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz_masaustu.png" },
+		{ "id": 4, "slug": "acs-39t-usb", "group": "ACS 39T", "name": "ACS39T USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_39t_a1_tumrenkler.png" },
+		{ "id": 6, "slug": "atr-19-usb", "group": "ATR 19", "name": "ATR19 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/atr19.png" }
 	]
 }
