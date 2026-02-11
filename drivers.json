@@ -1,261 +1,149 @@
 {
-	"version": "1.0.0",
-	"lastUpdated": "2026-02-06",
+  "commonDownloads": {
+    "mozilla37": {
+      "description": "Mozilla Firefox 37.0 (Win32, en-US)",
+      "url": "https://ftp.mozilla.org/pub/firefox/releases/37.0/win32/en-US/Firefox%20Setup%2037.0.exe",
+      "note": "Türkçe setup incelenecek"
+    },
+    "java": {
+      "x64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252907_0d06828d282343ea81775b28020a7cd3"
+    },
+    "eimza": "https://cbs.tkgm.gov.tr/eimza/32/setup.exe"
+  },
+  "belgenetByJavaArchitecture": {
+    "java32": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Windows/1.0.62/Belgenet_Imza.msi",
+    "java64": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Windows/1.0.62/Belgenet_Imza_x64.msi"
+  },
+  "installationLogic": {
+    "rule": "Sistemde 32-bit Java varsa 32-bit Belgenet, yoksa 64-bit Java ve 64-bit Belgenet kurulacak."
+  },
+  "systems": {
+    "windows11_x64": {
+      "akisDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip"
+      },
+      "acsDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "MILKO": null,
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/64bit/Hepsi/GemPcCCID_Gemplus_WindowsAll_64_bits.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "ATR19": null
+      }
+    },
+    "windows10_x64": {
+      "akisDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
+        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip"
+      },
+      "acsDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "MILKO": null,
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/64bit/Hepsi/GemPcCCID_Gemplus_WindowsAll_64_bits.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "ATR19": null
+      }
+    },
+    "windows10_x32": {
+      "akisDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
+        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
+        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip"
+      },
+      "acsDrivers": {
+        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "MILKO": null,
+        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/32bit/Hepsi/GemPCKey_PC_SC_Installer_WindowsAll_32_bits.zip",
+        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
+        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "ATR19": null
+      }
+    }
+  },
 
-	"java": {
-		"win-online": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252905_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Windows Çevrim İçi (32-bit)",
-			"file": "jre-8u-windows-i586.exe",
-			"size": "2.28 MB"
-		},
-		"win-offline": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252906_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Windows Çevrim dışı (32-bit)",
-			"file": "jre-8u-windows-i586.exe",
-			"size": "36.03 MB"
-		},
-		"win-offline-64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252907_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Windows Çevrim dışı (64-bit)",
-			"file": "jre-8u-windows-x64.exe",
-			"size": "38.50 MB"
-		},
-		"mac-x64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252900_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — macOS x64 (10.7.3+)",
-			"file": "jre-8u-macosx-x64.dmg",
-			"size": "46.72 MB"
-		},
-		"mac-arm64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252898_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — macOS ARM64 (12+)",
-			"file": "jre-8u-macosx-arm64.dmg",
-			"size": "45.88 MB"
-		},
-		"linux-rpm": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252894_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Linux RPM",
-			"file": "jre-8u-linux-i586.rpm",
-			"size": "51.38 MB"
-		},
-		"linux-x86": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252895_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Linux x86",
-			"file": "jre-8u-linux-i586.tar.gz",
-			"size": "48.22 MB"
-		},
-		"linux-x64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252897_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Linux x64",
-			"file": "jre-8u-linux-x64.tar.gz",
-			"size": "45.24 MB"
-		},
-		"linux-x64-rpm": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252896_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Linux x64 RPM",
-			"file": "jre-8u-linux-x64.rpm",
-			"size": "48.51 MB"
-		},
-		"solaris-sparc": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252902_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Solaris SPARC (64-bit)",
-			"file": "jre-8u-solaris-sparc64.tar.gz",
-			"size": "53.34 MB"
-		},
-		"solaris-x64": {
-			"url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252903_0d06828d282343ea81775b28020a7cd3",
-			"label": "Java 8 — Solaris x64",
-			"file": "jre-8u-solaris-x64.tar.gz",
-			"size": "51.27 MB"
-		},
-		"fallback": {
-			"url": "https://www.java.com/tr/download/",
-			"label": "Java — Resmi İndirme Sayfası",
-			"file": "java.com"
-		}
-	},
-
-	"akis": {
-		"win11-64": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W10-W11-x64.exe",
-			"label": "AKİS Akıllı Kart — Windows 11 (64-bit)",
-			"file": "AkisKartiPCSCDrv-W10-W11-x64.exe"
-		},
-		"win11-32": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W10-W11-x86.exe",
-			"label": "AKİS Akıllı Kart — Windows 11 (32-bit)",
-			"file": "AkisKartiPCSCDrv-W10-W11-x86.exe"
-		},
-		"win10-64": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W10-W11-x64.exe",
-			"label": "AKİS Akıllı Kart — Windows 10 (64-bit)",
-			"file": "AkisKartiPCSCDrv-W10-W11-x64.exe"
-		},
-		"win10-32": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W10-W11-x86.exe",
-			"label": "AKİS Akıllı Kart — Windows 10 (32-bit)",
-			"file": "AkisKartiPCSCDrv-W10-W11-x86.exe"
-		},
-		"win81-64": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x64.exe",
-			"label": "AKİS Akıllı Kart — Windows 8.1 (64-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x64.exe"
-		},
-		"win81-32": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x86.exe",
-			"label": "AKİS Akıllı Kart — Windows 8.1 (32-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x86.exe"
-		},
-		"win8-64": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x64.exe",
-			"label": "AKİS Akıllı Kart — Windows 8 (64-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x64.exe"
-		},
-		"win8-32": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x86.exe",
-			"label": "AKİS Akıllı Kart — Windows 8 (32-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x86.exe"
-		},
-		"win7-64": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x64.exe",
-			"label": "AKİS Akıllı Kart — Windows 7 (64-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x64.exe"
-		},
-		"win7-32": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/urunler/akis/surucu/AkisKartiPCSCDrv-W7-W81-x86.exe",
-			"label": "AKİS Akıllı Kart — Windows 7 (32-bit)",
-			"file": "AkisKartiPCSCDrv-W7-W81-x86.exe"
-		},
-		"fallback": {
-			"url": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/",
-			"label": "AKİS — Manuel İndirme Sayfası",
-			"file": "kamusm.bilgem.tubitak.gov.tr"
-		}
-	},
-
-	"belgenet": {
-		"64": {
-			"url": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Belgenet_Imza_x64.msi",
-			"label": "Belgenet İmza — 64-bit",
-			"file": "Belgenet_Imza_x64.msi"
-		},
-		"32": {
-			"url": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Belgenet_Imza.msi",
-			"label": "Belgenet İmza — 32-bit",
-			"file": "Belgenet_Imza.msi"
-		},
-		"fallback": {
-			"url": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/",
-			"label": "Belgenet — Manuel İndirme Sayfası",
-			"file": "belgenet.com.tr"
-		}
-	},
-
-	"eimza": {
-		"default": {
-			"url": "https://cbs.tkgm.gov.tr/eimza/32/setup.exe",
-			"label": "E-İmza Uygulaması",
-			"file": "cbs.tkgm.gov.tr"
-		}
-	},
-
-	"reader": {
-		"0-win11-64": { "url": "suruculer/MilkoReader/Milko_x64.exe", "label": "MİLKO — Windows 11 (64-bit)", "file": "Milko_x64.exe" },
-		"0-win11-32": { "url": "suruculer/MilkoReader/Milko_x86.exe", "label": "MİLKO — Windows 11 (32-bit)", "file": "Milko_x86.exe" },
-		"0-win10-64": { "url": "suruculer/MilkoReader/Milko_x64.exe", "label": "MİLKO — Windows 10 (64-bit)", "file": "Milko_x64.exe" },
-		"0-win10-32": { "url": "suruculer/MilkoReader/Milko_x86.exe", "label": "MİLKO — Windows 10 (32-bit)", "file": "Milko_x86.exe" },
-		"0-win81-64": { "url": "suruculer/MilkoReader/Milko_x64.exe", "label": "MİLKO — Windows 8.1 (64-bit)", "file": "Milko_x64.exe" },
-		"0-win81-32": { "url": "suruculer/MilkoReader/Milko_x86.exe", "label": "MİLKO — Windows 8.1 (32-bit)", "file": "Milko_x86.exe" },
-		"0-win8-64": { "url": "suruculer/MilkoReader/Milko_x64.exe", "label": "MİLKO — Windows 8 (64-bit)", "file": "Milko_x64.exe" },
-		"0-win8-32": { "url": "suruculer/MilkoReader/Milko_x86.exe", "label": "MİLKO — Windows 8 (32-bit)", "file": "Milko_x86.exe" },
-		"0-win7-64": { "url": "suruculer/MilkoReader/Milko_x64.exe", "label": "MİLKO — Windows 7 (64-bit)", "file": "Milko_x64.exe" },
-		"0-win7-32": { "url": "suruculer/MilkoReader/Milko_x86.exe", "label": "MİLKO — Windows 7 (32-bit)", "file": "Milko_x86.exe" },
-		"0-fallback": { "url": "suruculer/MilkoReader/MilkoDriver.zip", "label": "MİLKO — Tüm Sürücüler", "file": "MilkoDriver.zip" },
-
-		"1-win11-64": { "url": "suruculer/omnikey/Omnikey_x64.exe", "label": "Omnikey — Windows 11 (64-bit)", "file": "Omnikey_x64.exe" },
-		"1-win11-32": { "url": "suruculer/omnikey/Omnikey_x86.exe", "label": "Omnikey — Windows 11 (32-bit)", "file": "Omnikey_x86.exe" },
-		"1-win10-64": { "url": "suruculer/omnikey/Omnikey_x64.exe", "label": "Omnikey — Windows 10 (64-bit)", "file": "Omnikey_x64.exe" },
-		"1-win10-32": { "url": "suruculer/omnikey/Omnikey_x86.exe", "label": "Omnikey — Windows 10 (32-bit)", "file": "Omnikey_x86.exe" },
-		"1-win81-64": { "url": "suruculer/omnikey/Omnikey_x64.exe", "label": "Omnikey — Windows 8.1 (64-bit)", "file": "Omnikey_x64.exe" },
-		"1-win81-32": { "url": "suruculer/omnikey/Omnikey_x86.exe", "label": "Omnikey — Windows 8.1 (32-bit)", "file": "Omnikey_x86.exe" },
-		"1-win8-64": { "url": "suruculer/omnikey/Omnikey_x64.exe", "label": "Omnikey — Windows 8 (64-bit)", "file": "Omnikey_x64.exe" },
-		"1-win8-32": { "url": "suruculer/omnikey/Omnikey_x86.exe", "label": "Omnikey — Windows 8 (32-bit)", "file": "Omnikey_x86.exe" },
-		"1-win7-64": { "url": "suruculer/omnikey/Omnikey_x64.exe", "label": "Omnikey — Windows 7 (64-bit)", "file": "Omnikey_x64.exe" },
-		"1-win7-32": { "url": "suruculer/omnikey/Omnikey_x86.exe", "label": "Omnikey — Windows 7 (32-bit)", "file": "Omnikey_x86.exe" },
-		"1-fallback": { "url": "suruculer/omnikey/", "label": "Omnikey — Manuel İndirme", "file": "omnikey" },
-
-		"2-win11-64": { "url": "suruculer/gemplus/Gemplus_x64.exe", "label": "Gemplus — Windows 11 (64-bit)", "file": "Gemplus_x64.exe" },
-		"2-win11-32": { "url": "suruculer/gemplus/Gemplus_x86.exe", "label": "Gemplus — Windows 11 (32-bit)", "file": "Gemplus_x86.exe" },
-		"2-win10-64": { "url": "suruculer/gemplus/Gemplus_x64.exe", "label": "Gemplus — Windows 10 (64-bit)", "file": "Gemplus_x64.exe" },
-		"2-win10-32": { "url": "suruculer/gemplus/Gemplus_x86.exe", "label": "Gemplus — Windows 10 (32-bit)", "file": "Gemplus_x86.exe" },
-		"2-win81-64": { "url": "suruculer/gemplus/Gemplus_x64.exe", "label": "Gemplus — Windows 8.1 (64-bit)", "file": "Gemplus_x64.exe" },
-		"2-win81-32": { "url": "suruculer/gemplus/Gemplus_x86.exe", "label": "Gemplus — Windows 8.1 (32-bit)", "file": "Gemplus_x86.exe" },
-		"2-win8-64": { "url": "suruculer/gemplus/Gemplus_x64.exe", "label": "Gemplus — Windows 8 (64-bit)", "file": "Gemplus_x64.exe" },
-		"2-win8-32": { "url": "suruculer/gemplus/Gemplus_x86.exe", "label": "Gemplus — Windows 8 (32-bit)", "file": "Gemplus_x86.exe" },
-		"2-win7-64": { "url": "suruculer/gemplus/Gemplus_x64.exe", "label": "Gemplus — Windows 7 (64-bit)", "file": "Gemplus_x64.exe" },
-		"2-win7-32": { "url": "suruculer/gemplus/Gemplus_x86.exe", "label": "Gemplus — Windows 7 (32-bit)", "file": "Gemplus_x86.exe" },
-		"2-fallback": { "url": "suruculer/gemplus/", "label": "Gemplus — Manuel İndirme", "file": "gemplus" },
-
-		"3-win11-64": { "url": "suruculer/acs38t/ACS38T_x64.exe", "label": "ACS ACR 38T — Windows 11 (64-bit)", "file": "ACS38T_x64.exe" },
-		"3-win11-32": { "url": "suruculer/acs38t/ACS38T_x86.exe", "label": "ACS ACR 38T — Windows 11 (32-bit)", "file": "ACS38T_x86.exe" },
-		"3-win10-64": { "url": "suruculer/acs38t/ACS38T_x64.exe", "label": "ACS ACR 38T — Windows 10 (64-bit)", "file": "ACS38T_x64.exe" },
-		"3-win10-32": { "url": "suruculer/acs38t/ACS38T_x86.exe", "label": "ACS ACR 38T — Windows 10 (32-bit)", "file": "ACS38T_x86.exe" },
-		"3-win81-64": { "url": "suruculer/acs38t/ACS38T_x64.exe", "label": "ACS ACR 38T — Windows 8.1 (64-bit)", "file": "ACS38T_x64.exe" },
-		"3-win81-32": { "url": "suruculer/acs38t/ACS38T_x86.exe", "label": "ACS ACR 38T — Windows 8.1 (32-bit)", "file": "ACS38T_x86.exe" },
-		"3-win8-64": { "url": "suruculer/acs38t/ACS38T_x64.exe", "label": "ACS ACR 38T — Windows 8 (64-bit)", "file": "ACS38T_x64.exe" },
-		"3-win8-32": { "url": "suruculer/acs38t/ACS38T_x86.exe", "label": "ACS ACR 38T — Windows 8 (32-bit)", "file": "ACS38T_x86.exe" },
-		"3-win7-64": { "url": "suruculer/acs38t/ACS38T_x64.exe", "label": "ACS ACR 38T — Windows 7 (64-bit)", "file": "ACS38T_x64.exe" },
-		"3-win7-32": { "url": "suruculer/acs38t/ACS38T_x86.exe", "label": "ACS ACR 38T — Windows 7 (32-bit)", "file": "ACS38T_x86.exe" },
-		"3-fallback": { "url": "suruculer/acs38t/", "label": "ACS ACR 38T — Manuel İndirme", "file": "acs38t" },
-
-		"4-win11-64": { "url": "suruculer/acs39t/ACS39T_x64.exe", "label": "ACS ACR 39T — Windows 11 (64-bit)", "file": "ACS39T_x64.exe" },
-		"4-win11-32": { "url": "suruculer/acs39t/ACS39T_x86.exe", "label": "ACS ACR 39T — Windows 11 (32-bit)", "file": "ACS39T_x86.exe" },
-		"4-win10-64": { "url": "suruculer/acs39t/ACS39T_x64.exe", "label": "ACS ACR 39T — Windows 10 (64-bit)", "file": "ACS39T_x64.exe" },
-		"4-win10-32": { "url": "suruculer/acs39t/ACS39T_x86.exe", "label": "ACS ACR 39T — Windows 10 (32-bit)", "file": "ACS39T_x86.exe" },
-		"4-win81-64": { "url": "suruculer/acs39t/ACS39T_x64.exe", "label": "ACS ACR 39T — Windows 8.1 (64-bit)", "file": "ACS39T_x64.exe" },
-		"4-win81-32": { "url": "suruculer/acs39t/ACS39T_x86.exe", "label": "ACS ACR 39T — Windows 8.1 (32-bit)", "file": "ACS39T_x86.exe" },
-		"4-win8-64": { "url": "suruculer/acs39t/ACS39T_x64.exe", "label": "ACS ACR 39T — Windows 8 (64-bit)", "file": "ACS39T_x64.exe" },
-		"4-win8-32": { "url": "suruculer/acs39t/ACS39T_x86.exe", "label": "ACS ACR 39T — Windows 8 (32-bit)", "file": "ACS39T_x86.exe" },
-		"4-win7-64": { "url": "suruculer/acs39t/ACS39T_x64.exe", "label": "ACS ACR 39T — Windows 7 (64-bit)", "file": "ACS39T_x64.exe" },
-		"4-win7-32": { "url": "suruculer/acs39t/ACS39T_x86.exe", "label": "ACS ACR 39T — Windows 7 (32-bit)", "file": "ACS39T_x86.exe" },
-		"4-fallback": { "url": "suruculer/acs39t/", "label": "ACS ACR 39T — Manuel İndirme", "file": "acs39t" },
-
-		"5-win11-64": { "url": "suruculer/gemalto/Gemalto_x64.exe", "label": "Gemalto IDBRIDGE K30 — Windows 11 (64-bit)", "file": "Gemalto_x64.exe" },
-		"5-win11-32": { "url": "suruculer/gemalto/Gemalto_x86.exe", "label": "Gemalto IDBRIDGE K30 — Windows 11 (32-bit)", "file": "Gemalto_x86.exe" },
-		"5-win10-64": { "url": "suruculer/gemalto/Gemalto_x64.exe", "label": "Gemalto IDBRIDGE K30 — Windows 10 (64-bit)", "file": "Gemalto_x64.exe" },
-		"5-win10-32": { "url": "suruculer/gemalto/Gemalto_x86.exe", "label": "Gemalto IDBRIDGE K30 — Windows 10 (32-bit)", "file": "Gemalto_x86.exe" },
-		"5-win81-64": { "url": "suruculer/gemalto/Gemalto_x64.exe", "label": "Gemalto IDBRIDGE K30 — Windows 8.1 (64-bit)", "file": "Gemalto_x64.exe" },
-		"5-win81-32": { "url": "suruculer/gemalto/Gemalto_x86.exe", "label": "Gemalto IDBRIDGE K30 — Windows 8.1 (32-bit)", "file": "Gemalto_x86.exe" },
-		"5-win8-64": { "url": "suruculer/gemalto/Gemalto_x64.exe", "label": "Gemalto IDBRIDGE K30 — Windows 8 (64-bit)", "file": "Gemalto_x64.exe" },
-		"5-win8-32": { "url": "suruculer/gemalto/Gemalto_x86.exe", "label": "Gemalto IDBRIDGE K30 — Windows 8 (32-bit)", "file": "Gemalto_x86.exe" },
-		"5-win7-64": { "url": "suruculer/gemalto/Gemalto_x64.exe", "label": "Gemalto IDBRIDGE K30 — Windows 7 (64-bit)", "file": "Gemalto_x64.exe" },
-		"5-win7-32": { "url": "suruculer/gemalto/Gemalto_x86.exe", "label": "Gemalto IDBRIDGE K30 — Windows 7 (32-bit)", "file": "Gemalto_x86.exe" },
-		"5-fallback": { "url": "suruculer/gemalto/", "label": "Gemalto IDBRIDGE K30 — Manuel İndirme", "file": "gemalto" },
-
-		"6-win11-64": { "url": "suruculer/atr19/ATR19_x64.exe", "label": "ATR 19 — Windows 11 (64-bit)", "file": "ATR19_x64.exe" },
-		"6-win11-32": { "url": "suruculer/atr19/ATR19_x86.exe", "label": "ATR 19 — Windows 11 (32-bit)", "file": "ATR19_x86.exe" },
-		"6-win10-64": { "url": "suruculer/atr19/ATR19_x64.exe", "label": "ATR 19 — Windows 10 (64-bit)", "file": "ATR19_x64.exe" },
-		"6-win10-32": { "url": "suruculer/atr19/ATR19_x86.exe", "label": "ATR 19 — Windows 10 (32-bit)", "file": "ATR19_x86.exe" },
-		"6-win81-64": { "url": "suruculer/atr19/ATR19_x64.exe", "label": "ATR 19 — Windows 8.1 (64-bit)", "file": "ATR19_x64.exe" },
-		"6-win81-32": { "url": "suruculer/atr19/ATR19_x86.exe", "label": "ATR 19 — Windows 8.1 (32-bit)", "file": "ATR19_x86.exe" },
-		"6-win8-64": { "url": "suruculer/atr19/ATR19_x64.exe", "label": "ATR 19 — Windows 8 (64-bit)", "file": "ATR19_x64.exe" },
-		"6-win8-32": { "url": "suruculer/atr19/ATR19_x86.exe", "label": "ATR 19 — Windows 8 (32-bit)", "file": "ATR19_x86.exe" },
-		"6-win7-64": { "url": "suruculer/atr19/ATR19_x64.exe", "label": "ATR 19 — Windows 7 (64-bit)", "file": "ATR19_x64.exe" },
-		"6-win7-32": { "url": "suruculer/atr19/ATR19_x86.exe", "label": "ATR 19 — Windows 7 (32-bit)", "file": "ATR19_x86.exe" },
-		"6-fallback": { "url": "suruculer/atr19/", "label": "ATR 19 — Manuel İndirme", "file": "atr19" }
-	},
-
-	"readers": [
-		{ "id": 5, "slug": "gemalto-idbridge-k30", "group": "Gemalto", "name": "Gemalto IDBRIDGE K30 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/gemalto.png" },
-		{ "id": 0, "slug": "milko", "group": "Milko", "name": "MİLKO", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/Milko.png" },
-		{ "id": 1, "slug": "omnikey-usb", "group": "Omnikey", "name": "Omnikey USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/omnikey.png" },
-		{ "id": 1, "slug": "omnikey-desktop", "group": "Omnikey", "name": "Omnikey Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/OmnikeyDekstopO.png" },
-		{ "id": 2, "slug": "gemplus-usb", "group": "Gemplus", "name": "Gemplus USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/GemplusO.png" },
-		{ "id": 3, "slug": "acs-38t-usb-red", "group": "ACS 38T", "name": "ACS 38T USB Kırmızı", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/AcsO.png" },
-		{ "id": 3, "slug": "acs-38t-usb-white", "group": "ACS 38T", "name": "ACS38T USB Beyaz", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz.png" },
-		{ "id": 3, "slug": "acs-38t-desktop", "group": "ACS 38T", "name": "ACS38T USB Masaüstü", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz_masaustu.png" },
-		{ "id": 4, "slug": "acs-39t-usb", "group": "ACS 39T", "name": "ACS39T USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_39t_a1_tumrenkler.png" },
-		{ "id": 6, "slug": "atr-19-usb", "group": "ATR 19", "name": "ATR19 USB", "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/atr19.png" }
-	]
+  "readers": [
+    {
+      "id": 5,
+      "slug": "gemalto-idbridge-k30",
+      "group": "Gemalto",
+      "name": "Gemalto IDBRIDGE K30 USB",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/gemalto.png"
+    },
+    {
+      "id": 0,
+      "slug": "milko",
+      "group": "Milko",
+      "name": "MİLKO",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/Milko.png"
+    },
+    {
+      "id": 1,
+      "slug": "omnikey-usb",
+      "group": "Omnikey",
+      "name": "Omnikey USB",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/omnikey.png"
+    },
+    {
+      "id": 1,
+      "slug": "omnikey-desktop",
+      "group": "Omnikey",
+      "name": "Omnikey Masaüstü",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/OmnikeyDekstopO.png"
+    },
+    {
+      "id": 2,
+      "slug": "gemplus-usb",
+      "group": "Gemplus",
+      "name": "Gemplus USB",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/GemplusO.png"
+    },
+    {
+      "id": 3,
+      "slug": "acs-38t-usb-red",
+      "group": "ACS 38T",
+      "name": "ACS 38T USB Kırmızı",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/AcsO.png"
+    },
+    {
+      "id": 3,
+      "slug": "acs-38t-usb-white",
+      "group": "ACS 38T",
+      "name": "ACS38T USB Beyaz",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz.png"
+    },
+    {
+      "id": 3,
+      "slug": "acs-38t-desktop",
+      "group": "ACS 38T",
+      "name": "ACS38T USB Masaüstü",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz_masaustu.png"
+    },
+    {
+      "id": 4,
+      "slug": "acs-39t-usb",
+      "group": "ACS 39T",
+      "name": "ACS39T USB",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_39t_a1_tumrenkler.png"
+    },
+    {
+      "id": 6,
+      "slug": "atr-19-usb",
+      "group": "ATR 19",
+      "name": "ATR19 USB",
+      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/atr19.png"
+    }
+  ]
 }
