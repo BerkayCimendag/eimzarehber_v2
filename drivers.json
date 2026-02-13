@@ -2,17 +2,17 @@
   "commonDownloads": {
     "mozilla37": {
       "description": "Mozilla Firefox 37.0 (Win32, en-US)",
-      "url": "https://bulut.tkgm.gov.tr/public.php/dav/files/SGMnoMmcGHHTMHe/Firefox37.exe",
+      "path": "C:\\Users\\berka\\Desktop\\CBSSube\\mozilla37\\Firefox37.exe",
       "note": "Türkçe setup incelenecek"
     },
     "java": {
-      "x64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252907_0d06828d282343ea81775b28020a7cd3"
+      "x64": "C:\\Users\\berka\\Desktop\\CBSSube\\java\\jre-8u481-windows-x64.exe"
     },
-    "eimza": "https://cbs.tkgm.gov.tr/eimza/32/setup.exe"
+    "eimza": "C:\\Users\\berka\\Desktop\\CBSSube\\eimza\\setup (2).exe"
   },
   "belgenetByJavaArchitecture": {
-    "java32": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Windows/1.0.62/Belgenet_Imza.msi",
-    "java64": "https://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Windows/1.0.62/Belgenet_Imza_x64.msi"
+    "java32": "C:\\Users\\berka\\Desktop\\CBSSube\\Belgenet\\Java32Kuruluysa\\Belgenet_Imza (2).msi",
+    "java64": "C:\\Users\\berka\\Desktop\\CBSSube\\Belgenet\\Java64Kuruluysa\\Belgenet_Imza_x64 (3).msi"
   },
   "installationLogic": {
     "rule": "Sistemde 32-bit Java varsa 32-bit Belgenet, yoksa 64-bit Java ve 64-bit Belgenet kurulacak."
@@ -20,55 +20,55 @@
   "systems": {
     "windows11_x64": {
       "akisDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip"
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
+        "MILKO": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ATR19": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/64bit/Hepsi/GemPcCCID_Gemplus_WindowsAll_64_bits.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows11_x64\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     },
     "windows10_x64": {
       "akisDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip",
-        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/64/Akia_windows-x64_6_5_4_exe.zip"
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
+        "MILKO": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ATR19": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/64bit/Hepsi/GemPcCCID_Gemplus_WindowsAll_64_bits.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x64\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     },
     "windows10_x32": {
       "akisDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
-        "MILKO": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip",
-        "ATR19": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AkisKart/windows/32/Akia_windows-x32_6_5_4_exe.zip"
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\GemaltoAkis\\Akia_windows-x32_6_5_4.exe",
+        "MILKO": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\MilkoAkis\\Akia_windows-x32_6_5_4.exe",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\GemplusAkis\\Akia_windows-x32_6_5_4.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\ACS_ACR38TAkis\\Akia_windows-x32_6_5_4.exe",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\ACS_ACR39TAkis\\Akia_windows-x32_6_5_4.exe",
+        "ATR19": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Akis\\ATR19Akis\\Akia_windows-x32_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/Gemalto/GemPcCCID.zip",
+        "Gemalto": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/GemplusReader/32bit/Hepsi/GemPCKey_PC_SC_Installer_WindowsAll_32_bits.zip",
-        "ACS_ACR38T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4290(ACS38T-WindowsAll).zip",
-        "ACS_ACR39T": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/suruculer/AcsReader/64bit/Hepsi/ACS-Unified-MSI-Win-4310-1(ACS39T-WindowsAll).zip",
+        "Gemplus": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "C:\\Users\\berka\\Desktop\\CBSSube\\windows10_x32\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     }
