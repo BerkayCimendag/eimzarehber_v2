@@ -2,17 +2,18 @@
   "commonDownloads": {
     "mozilla37": {
       "description": "Mozilla Firefox 37.0 (Win32, en-US)",
-      "path": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\mozilla37\\Firefox37.exe",
+      "path": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\mozilla37\\Firefox37.exe",
       "note": "Türkçe setup incelenecek"
     },
     "java": {
-      "x64": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\java\\jre-8u481-windows-x64.exe"
+      "x64": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\java\\jre-8u481-windows-x64.exe",
+      "x32": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\java\\jre-8u481-windows-i586.exe"
     },
-    "eimza": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\eimza\\setup (2).exe"
+    "eimza": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\eimza\\setup (2).exe"
   },
   "belgenetByJavaArchitecture": {
-    "java32": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\Belgenet\\Java32Kuruluysa\\Belgenet_Imza (2).msi",
-    "java64": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\Belgenet\\Java64Kuruluysa\\Belgenet_Imza_x64 (3).msi"
+    "java32": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\Belgenet\\Java32Kuruluysa\\Belgenet_Imza (2).msi",
+    "java64": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\Belgenet\\Java64Kuruluysa\\Belgenet_Imza_x64 (3).msi"
   },
   "installationLogic": {
     "rule": "Sistemde 32-bit Java varsa 32-bit Belgenet, yoksa 64-bit Java ve 64-bit Belgenet kurulacak."
@@ -20,130 +21,66 @@
   "systems": {
     "windows11_x64": {
       "akisDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
-        "MILKO": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
-        "ATR19": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
+        "MILKO": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ATR19": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Acs\\ACS_ACR38TAcs",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows11_x64\\Acs\\ACS_ACR39TAcs",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows11_x64\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     },
     "windows10_x64": {
       "akisDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
-        "MILKO": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
-        "ATR19": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\GemaltoAkis\\Akia_windows-x64_6_5_4.exe",
+        "MILKO": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\MilkoAkis\\Akia_windows-x64_6_5_4.exe",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\GemplusAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\ACS_ACR38TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\ACS_ACR39TAkis\\Akia_windows-x64_6_5_4.exe",
+        "ATR19": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Akis\\ATR19Akis\\Akia_windows-x64_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Acs\\ACS_ACR38TAcs",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x64\\Acs\\ACS_ACR39TAcs",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x64\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     },
     "windows10_x32": {
       "akisDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\GemaltoAkis\\Akia_windows-x32_6_5_4.exe",
-        "MILKO": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\MilkoAkis\\Akia_windows-x32_6_5_4.exe",
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\GemplusAkis\\Akia_windows-x32_6_5_4.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\ACS_ACR38TAkis\\Akia_windows-x32_6_5_4.exe",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\ACS_ACR39TAkis\\Akia_windows-x32_6_5_4.exe",
-        "ATR19": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Akis\\ATR19Akis\\Akia_windows-x32_6_5_4.exe"
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\GemaltoAkis\\Akia_windows-x32_6_5_4.exe",
+        "MILKO": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\MilkoAkis\\Akia_windows-x32_6_5_4.exe",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\GemplusAkis\\Akia_windows-x32_6_5_4.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\ACS_ACR38TAkis\\Akia_windows-x32_6_5_4.exe",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\ACS_ACR39TAkis\\Akia_windows-x32_6_5_4.exe",
+        "ATR19": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Akis\\ATR19Akis\\Akia_windows-x32_6_5_4.exe"
       },
       "acsDrivers": {
-        "Gemalto": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
+        "Gemalto": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Acs\\GemaltoAcs\\GemPcCCID.EXE",
         "MILKO": null,
-        "Gemplus": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
-        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Acs\\ACS_ACR38TAcs",
-        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\CBSSube\\CBSSube\\windows10_x32\\Acs\\ACS_ACR39TAcs",
+        "Gemplus": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Acs\\GemplusAcs\\GemPCKey_PC_SC_Installer_WindowsAll_32_bits.exe",
+        "ACS_ACR38T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Acs\\ACS_ACR38TAcs",
+        "ACS_ACR39T": "\\\\tk-paylasim\\ebys\\E-İMZA PROGRAMI KURULUM DOSYALARI\\windows10_x32\\Acs\\ACS_ACR39TAcs",
         "ATR19": null
       }
     }
   },
-
   "readers": [
-    {
-      "id": 5,
-      "slug": "gemalto-idbridge-k30",
-      "group": "Gemalto",
-      "name": "Gemalto IDBRIDGE K30 USB",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/gemalto.png"
-    },
-    {
-      "id": 0,
-      "slug": "milko",
-      "group": "Milko",
-      "name": "MİLKO",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/Milko.png"
-    },
-    {
-      "id": 1,
-      "slug": "omnikey-usb",
-      "group": "Omnikey",
-      "name": "Omnikey USB",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/omnikey.png"
-    },
-    {
-      "id": 1,
-      "slug": "omnikey-desktop",
-      "group": "Omnikey",
-      "name": "Omnikey Masaüstü",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/OmnikeyDekstopO.png"
-    },
-    {
-      "id": 2,
-      "slug": "gemplus-usb",
-      "group": "Gemplus",
-      "name": "Gemplus USB",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/GemplusO.png"
-    },
-    {
-      "id": 3,
-      "slug": "acs-38t-usb-red",
-      "group": "ACS 38T",
-      "name": "ACS 38T USB Kırmızı",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/AcsO.png"
-    },
-    {
-      "id": 3,
-      "slug": "acs-38t-usb-white",
-      "group": "ACS 38T",
-      "name": "ACS38T USB Beyaz",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz.png"
-    },
-    {
-      "id": 3,
-      "slug": "acs-38t-desktop",
-      "group": "ACS 38T",
-      "name": "ACS38T USB Masaüstü",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_beyaz_masaustu.png"
-    },
-    {
-      "id": 4,
-      "slug": "acs-39t-usb",
-      "group": "ACS 39T",
-      "name": "ACS39T USB",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/acs_39t_a1_tumrenkler.png"
-    },
-    {
-      "id": 6,
-      "slug": "atr-19-usb",
-      "group": "ATR 19",
-      "name": "ATR19 USB",
-      "image": "https://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/images/atr19.png"
-    }
+    { "id": 5, "slug": "gemalto-idbridge-k30", "group": "Gemalto", "name": "Gemalto IDBRIDGE K30 USB" },
+    { "id": 0, "slug": "milko", "group": "Milko", "name": "MİLKO" },
+    { "id": 1, "slug": "omnikey-usb", "group": "Omnikey", "name": "Omnikey USB" },
+    { "id": 2, "slug": "gemplus-usb", "group": "Gemplus", "name": "Gemplus USB" },
+    { "id": 3, "slug": "acs-38t-usb-red", "group": "ACS 38T", "name": "ACS 38T USB Kırmızı" },
+    { "id": 4, "slug": "acs-39t-usb", "group": "ACS 39T", "name": "ACS39T USB" },
+    { "id": 6, "slug": "atr-19-usb", "group": "ATR 19", "name": "ATR19 USB" }
   ]
 }
