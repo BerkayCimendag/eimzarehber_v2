@@ -1,4 +1,10 @@
 {
+  "appUpdate": {
+    "latestVersion": "1.1.0",
+    "updatePath": "\\\\tk-paylasim\\ebys\\E-IMZA PROGRAMI KURULUM DOSYALARI\\guncel_surum\\Uygulama.exe",
+    "mandatory": true,
+    "releaseNotes": "Arayüz güncellendi ve bazı hatalar giderildi."
+  },
   "commonDownloads": {
     "mozilla37": {
       "description": "Mozilla Firefox 37.0 (Win32, en-US)",
