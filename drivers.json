@@ -4,7 +4,7 @@
     "updatePath": "C:\\Users\\bcimendag\\Desktop\\EimzaOto\\EimzaOto\\EimzaOto\\bin\\Release\\TKGM E-İmza Kurulum Yardımcısı.exe",
     "mandatory": true,
     "releaseNotes": "Arayüz güncellendi ve bazı hatalar giderildi."
-  }
+  },
   "commonDownloads": {
     "mozilla37": {
       "description": "Mozilla Firefox 37.0 (Win32, en-US)",
